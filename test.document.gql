@@ -1,0 +1,8 @@
+fragment testFragment on Test {
+  test
+}
+
+# operation naming convention doesn't working
+query GetQuery {
+  test
+}

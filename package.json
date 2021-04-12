@@ -1,0 +1,26 @@
+{
+  "name": "graphql-lint-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godsenal/graphql-lint-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godsenal/graphql-lint-repro/issues"
+  },
+  "homepage": "https://github.com/Godsenal/graphql-lint-repro#readme",
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^0.9.1",
+    "eslint": "^7.24.0"
+  },
+  "dependencies": {
+    "graphql": "^15.5.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "overrides": [
+    {
+      "files": ["*.gql"],
+      "parser": "@graphql-eslint/eslint-plugin",
+      "plugins": ["@graphql-eslint"],
+      "rules": {
+        "@graphql-eslint/naming-convention": [
+          "error",
+          {
+            "ObjectTypeDefinition": "PascalCase",
+            "EnumTypeDefinition": "PascalCase",
+            "OperationDefinition": "camelCase",
+            "FragmentDefinition": {
+              "style": "camelCase",
+              "forbiddenSuffixes": ["Fragment"]
+            },
+            "QueryDefinition": {
+              "style": "camelCase",
+              "forbiddenPrefixes": ["get"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
